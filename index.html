@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>East London Airport Transfers</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+  <header>
+    <img src="logo.png" alt="Company Logo" class="logo">
+    <h1>East London Airport Transfers</h1>
+    <p>Reliable & comfortable rides to and from all major airports</p>
+    <div class="cta">
+      <a href="#book">Book Your Ride</a>
+    </div>
+  </header>
+
+  <section>
+    <h2>Why Choose Us?</h2>
+    <div class="features">
+      <div class="feature-card">
+        <h3>24/7 Service</h3>
+        <p>Available day and night for any flight time.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Professional Drivers</h3>
+        <p>Friendly, experienced, and fully licensed drivers.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Fixed Prices</h3>
+        <p>Transparent pricing with no hidden charges.</p>
+      </div>
+      <div class="feature-card">
+        <h3>Easy Booking</h3>
+        <p>Quick online booking or via phone.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="book">
+    <h2>Book Your Transfer</h2>
+    <form action="https://formspree.io/f/YOUR_FORMSPREE_URL" method="POST" style="max-width:600px; margin:auto;">
+      <label>
+        Name:
+        <input type="text" name="name" required>
+      </label>
+      <label>
+        Pickup Location:
+        <input type="text" name="pickup" required>
+      </label>
+      <label>
+        Destination Airport:
+        <input type="text" name="destination" required>
+      </label>
+      <label>
+        Date & Time:
+        <input type="datetime-local" name="datetime" required>
+      </label>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <section id="pay">
+    <h2>Online Payment</h2>
+    <p>Pay online securely with PayPal:</p>
+    <a href="https://www.paypal.com/paypalme/YOUR_PAYPAL_LINK" target="_blank" class="paypal-btn">Pay Now</a>
+  </section>
+
+  <footer>
+    &copy; 2025 East London Airport Transfers. All rights reserved.
+  </footer>
+</body>
+</html>
